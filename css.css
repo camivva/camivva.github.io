@@ -1,0 +1,58 @@
+/* Index webpage coding */
+.p1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left:47%
+}
+
+.artistp{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* coding for "bakeandart" webpage. */
+
+.cakecolor{
+    position: absolute;
+    top: 35%;
+    left:24%
+}
+
+.paintcolor{
+    position: absolute;
+    top: 39%;
+    left:37%
+}
+
+.icon{
+    position: absolute;
+    top: 39%;
+    left:50%
+}
+
+.house{
+    position: absolute;
+    top: 38%;
+    left:60%
+}
+
+.cakecolor:hover, .paintcolor:hover, .icon:hover, .house:hover {
+    transform: scale(1.1);
+}
+
+/* video page coding */
+.cute{
+    position: absolute;
+    top: 30%;
+    left:32%
+}
+
+.p3{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 10%;
+    left:49%
+}
