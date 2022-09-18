@@ -1,16 +1,44 @@
 /* Index webpage coding */
-.p1{
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo{
+    width: 10ch;
+    animation: typing 2s steps(9), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
     position: absolute;
     top: 50%;
-    left:47%
-}
+    left:45%;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
+/* Intro page coding*/
 .artistp{
-    text-align: center;
+    
     font-family:'Courier New', Courier, monospace;
-}
+    position: absolute;
+    top: 80;
+  }
 
 /* coding for "bakeandart" webpage. */
 
